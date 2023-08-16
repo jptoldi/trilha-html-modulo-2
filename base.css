@@ -28,6 +28,7 @@ body {
     align-items: center;
     justify-content: top;
     gap: 15px;
+    height: 100%;
 
 }
 .logo {
@@ -79,15 +80,37 @@ body {
     font-size: 30px;
 
 }
-.header {
+.header-index {
     background-color: rgb(5, 108, 108);
-    min-height: 250px;
+    min-height: 200px;
     display: flex;
     background-image: url(./content/img-home.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-  
-
+}
+.header-sobre {
+    background-color: rgb(5, 108, 108);
+    min-height: 200px;
+    display: flex;
+    background-image: url(./content/img-sobre.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header-horario {
+    background-color: rgb(5, 108, 108);
+    min-height: 200px;
+    display: flex;
+    background-image: url(./content/img-horario.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.header-contato {
+    background-color: rgb(5, 108, 108);
+    min-height: 15em;
+    display: flex;
+    background-image: url(./content/img-contato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .content {
     display: flex;
@@ -100,6 +123,7 @@ body {
 .bem-vindo {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
+    margin: 0;
 }
 .texto-home {
     font-family: 'Times New Roman', Times, serif;
@@ -163,10 +187,9 @@ body {
     background-color: #7C9D96;
 }
 .content-contato{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     background-color: #F4F2DE;
-    min-height: 25vh;
     padding: 15px;
     flex-grow: 1;
 }
@@ -174,7 +197,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     margin: 0;
-    
 
 }
 .ajuste-contato {
